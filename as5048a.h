@@ -1,8 +1,8 @@
 /**
   ******************************************************************************
   * @file    :as5048a.h
-  * @author  :Mahmut Sami Özmen
-  * @brief   :Header for main.c file.
+  * @author  :Jihladre
+  * @brief   :Header for as5048.c file.
   *           This file contains the common defines of the application.
   * @version :1.0
   *
@@ -11,8 +11,7 @@
 
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __AS5048A_H
-#define __AS5048A_H
+#pragma once
 
 #ifdef __cplusplus
 extern "C" {
@@ -59,6 +58,4 @@ const uint16_t REQ_ANGLE = 0x3FFF;
 
 #ifdef __cplusplus
 }
-#endif
-
 #endif
